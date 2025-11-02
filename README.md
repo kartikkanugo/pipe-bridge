@@ -18,4 +18,8 @@ The application is a simple communication interface for Windows between Rust and
 
 ## Milestones
 
-See the [Milestones.md](docs/Milestones.md) file for a task-level checklist to guide development from basic Rust ↔ Python communication to full JSON message support.
+See the [Milestones.md](01-docs/Milestones.md) file for a task-level checklist to guide development from basic Rust ↔ Python communication to full JSON message support.
+
+## License
+
+See the [License](01-docs/LICENSE)

@@ -1,0 +1,4 @@
+[workspace]
+members = ["pipe-bridge-rs"]
+
+resolver = "3"
