@@ -1,8 +1,8 @@
 [project]
 name = "pipe_bridge_py"
-version = "0.1.0"
+version = "0.1.0"                                                          # uv doesnt support dynamic versioning
 description = "Add your description here"
-readme = "README.md"
+readme = "01-docs/PythonReadMe.md"
 authors = [{ name = "Kartik Kanugo", email = "karthik.kanugo@gmail.com" }]
 requires-python = ">=3.13"
 dependencies = []
@@ -17,3 +17,5 @@ build-backend = "uv_build"
 [tool.uv.build-backend]
 module-name = "pipe_bridge_py"
 module-root = ""
+source-include = ["pipe_bridge_py/"]
+source-exclude = ["pipe_bridge_py/tests"]
