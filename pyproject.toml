@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "01-docs/PythonReadMe.md"
 authors = [{ name = "Kartik Kanugo", email = "karthik.kanugo@gmail.com" }]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pywin32>=311",
+]
 
 [project.scripts]
 pipe-bridge = "pipe_bridge_py:main"

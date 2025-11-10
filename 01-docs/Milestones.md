@@ -10,7 +10,7 @@
 
 ## Phase 2: Setup Python server
 
-- [ ] Create Python Named Pipe server using `pywin32`
+- [x] Create Python Named Pipe server using `pywin32`
 - [ ] Implement reading of length-prefixed messages from Rust
 - [ ] Echo back received messages for initial testing
 - [ ] Run server in a background thread or async loop
